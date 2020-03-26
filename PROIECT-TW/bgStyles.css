@@ -1,0 +1,84 @@
+/*imaginea de sub bara de meniu*/
+.topImage {
+    opacity: 0.5;
+    display:block;
+    width:100%;
+    height:auto;
+    margin-top: -17px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+/*Containerul care contine textul care apare cand pui mouse-ul pe imagine*/
+  .middleContainer {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container{
+      position:relative;
+  }
+  .container:hover .topImage {
+    opacity: 0.2;
+  }
+  
+  .container:hover .middleContainer {
+    opacity: 0.6;
+  }
+  
+  .textMiddle {
+    background-color: #333;
+    color: white;
+    font-size: 50px;
+    padding: 50px 32px;
+    font-family: Impact, Charcoal, sans-serif;
+
+  }
+
+  body{
+    margin:6%;
+  }
+
+  /* Create 2 equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*Create 2 equals menus*/
+ul.categoriesUL {
+  list-style-type: none;
+ margin: 0%;
+            padding: 1.5%;
+            background-color: #333;
+}
+
+li a.categoriesLI {
+  color: #333;
+  padding: 8px 16px;
+}
+li a.categoriesLI:hover {
+            background-color:#333;
+        }
+
+
+
+h2.categoriesStyle{
+  text-align:center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 30px
+ 
+}
