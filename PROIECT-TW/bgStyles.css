@@ -4,7 +4,7 @@
     display:block;
     width:100%;
     height:auto;
-    margin-top: -17px;
+    margin-top: -16px;
     transition: .5s ease;
     backface-visibility: hidden;
   }
@@ -56,10 +56,11 @@
   
 
   body{
-    margin:6%;
+    margin-left:15%;
+    margin-right: 15%;;
   }
 
-  /* Create 2 equal columns that floats next to each other */
+  /* Create 3 equal columns that floats next to each other */
 .column {
   float: left;
   width: 30%;
@@ -74,7 +75,7 @@
 }
 
 
-/*Create 2 equals menus*/
+/*Create 3 equals menus*/
 ul.categoriesUL {
   list-style-type: none;
  margin: 0%;

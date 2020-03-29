@@ -1,12 +1,10 @@
 .gallery {
-    margin: 5px;
-    border: 1px solid slategray;
+    margin-left: 26px;
     float: left;
-    width: 415px;
+    width: 30%;
   }
   
   .gallery:hover {
-    border: 1px solid black;
     opacity: 0.7;
   }
  
@@ -22,4 +20,31 @@
     font-family: Franklin Gothic Medium;
   }
 
+  /*imaginile din paginile individuale*/
+  .imagineSingle{
+    margin:26px;
+    width:30%;
+    height:auto;
+    text-align: right;
+    float:left;
+
+  }
+
+  p.titleGame{
+    font-size: 60px;
+    font-family: Impact, Charcoal, sans-serif;
+    margin-top:5px;
+    margin-left:20px;
+  }
+  .descriere{
+    padding: 5px;
+    font-family: Franklin Gothic Medium;
+  }
+p.subTitleGame
+{
+  padding: 5px;
+  border-bottom:  1px;
+  font-size: 40px;
+  font-family: Franklin Gothic Medium;
+}
  
